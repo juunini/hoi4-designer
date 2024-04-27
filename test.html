@@ -1,0 +1,86 @@
+<html> 
+    <link href="./fonts/nanumbarungothicsubset.css" rel="stylesheet">
+    <body>
+        <div class="case">
+            <div class="wrapper">
+                <div class="header">
+                    1934년형 경전차
+                </div>
+                <div class="body">
+                    <img src="./assets/tanks/Generic_light_tank_chassis_1.png" alt="" />
+                </div>
+                <div class="footer"></div>
+            </div>
+        </div>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'NanumBarunGothic', sans-serif;
+            }
+
+            div.case {
+                display: inline-block;
+                background: linear-gradient(-30deg, #080807, #898888);
+                padding: 1px 3px 0 3px;
+                border-radius: 4px;
+                overflow: hidden;
+            }
+
+            div.wrapper {
+                width: 180px;
+                height: 75px;
+                position: relative;
+                border: 1px solid #000;
+                border-radius: 4px;
+                overflow: hidden;
+            }
+
+            div.wrapper::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                box-shadow:
+                    1px 1px 0 0 rgba(255, 255, 255, 0.2) inset,
+                    -1px -1px 0 0 rgba(0, 0, 0, 0.2) inset;
+            }
+
+            div.header {
+                width: 180px;
+                height: 14px;
+                color: #fff;
+                padding-left: 5px;
+                font-size: 13px;
+                text-shadow: -1px 0px #000, 0px 1px #000, 1px 0px #000, 0px -1px #000;
+                background: linear-gradient(-30deg, #776a48, #d6cdae);
+                border-bottom: 1px solid rgba(211, 194, 147, 0.1);
+            }
+
+            div.body {
+                width: 180px;
+                height: 47px;
+                background: linear-gradient(-30deg, #453d2a, #c8b889);
+            }
+
+            div.body img {
+                margin-top: -8px;
+                margin-left: -16px;
+                filter: drop-shadow(0 0 0 rgba(0, 0, 0, 0.4))
+            }
+
+            div.footer {
+                width: 180px;
+                height: 14px;
+                background: linear-gradient(-30deg, #2c271a, #5d5239);
+                border-top: 1px solid rgba(60, 53, 36, 0.1);
+            }
+        </style>
+    </body>
+</html>
