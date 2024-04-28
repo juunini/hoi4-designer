@@ -4,7 +4,4 @@
 	import ResearchButton from '$lib/components/ResearchButton/ResearchButton.svelte';
 </script>
 
-<ResearchButton
-	title={$t('tanks.inter-war')}
-	src="/assets/tanks/Generic_inter_war_light_tank_chassis.png"
-/>
+<ResearchButton title={$t('tanks.amphibious')} src="/assets/tanks/Generic_amphibious_tank_1.png" />

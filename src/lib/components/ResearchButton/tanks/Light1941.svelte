@@ -5,6 +5,6 @@
 </script>
 
 <ResearchButton
-	title={$t('tanks.inter-war')}
-	src="/assets/tanks/Generic_inter_war_light_tank_chassis.png"
+	title={$t('tanks.1941-light')}
+	src="/assets/tanks/Generic_light_tank_chassis_3.png"
 />
