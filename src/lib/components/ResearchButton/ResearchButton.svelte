@@ -43,18 +43,22 @@
 	}
 
 	.title {
+		overflow-x: clip;
 		height: 0.875rem;
 		color: #fff;
 		padding-top: 0.1875rem;
 		padding-left: 0.3125rem;
+		padding-right: 0.3125rem;
 		font-size: 0.8125rem;
 		font-weight: 400;
 		letter-spacing: 0.0625rem;
+		text-overflow: ellipsis;
 		text-shadow:
 			-0.0625rem 0 #000,
 			0 0.0625rem #000,
 			0.0625rem 0 #000,
 			0 -0.0625rem #000;
+		white-space: nowrap;
 		background: linear-gradient(-30deg, #776a48, #d6cdae);
 		border-bottom: 0.0625rem solid rgba(211, 194, 147, 0.1);
 	}
