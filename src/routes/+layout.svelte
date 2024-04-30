@@ -9,7 +9,7 @@
 		}
 
 		const browserLocale = navigator.language || 'en';
-		localStorage.setItem('locale', browserLocale);
+		localStorage.setItem('locale', browserLocale.split('-')[0]);
 
 		return browserLocale;
 	}
