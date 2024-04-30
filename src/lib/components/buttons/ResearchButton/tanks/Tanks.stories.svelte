@@ -16,7 +16,7 @@
 	import Amphibious from './Amphibious.svelte';
 
 	export const meta = {
-		title: 'components/ResearchButton/Tanks',
+		title: 'components/buttons/ResearchButton/Tanks',
 		tags: ['autodocs']
 	};
 </script>

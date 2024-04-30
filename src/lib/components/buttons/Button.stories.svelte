@@ -3,7 +3,7 @@
 	import Button from './Button.svelte';
 
 	export const meta = {
-		title: 'components/Button',
+		title: 'components/buttons/Button',
 		component: Button,
 		tags: ['autodocs']
 	};

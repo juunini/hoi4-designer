@@ -3,7 +3,7 @@
 	import ResearchButton from './ResearchButton.svelte';
 
 	export const meta = {
-		title: 'components/ResearchButton',
+		title: 'components/buttons/ResearchButton',
 		component: ResearchButton,
 		tags: ['autodocs']
 	};
